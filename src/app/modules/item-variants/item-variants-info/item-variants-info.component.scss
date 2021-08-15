@@ -1,0 +1,35 @@
+
+
+.container {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: -4px 5px 8px #00000008;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.mat-accordion .mat-expansion-panel:last-of-type {
+  // display: flex;
+  // flex-direction: column;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid #E2E2E2;
+}
+
+.item-variants-list {
+  height: 25em;
+  overflow-y: scroll;
+}
+
+.item-variants-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.item-variants-list::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.item-variants-list::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 6px solid #078BE6;
+  background: #078BE6 0% 0% no-repeat padding-box;
+}

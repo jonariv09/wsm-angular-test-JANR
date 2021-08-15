@@ -1,0 +1,105 @@
+
+.menu {
+  height: 52px;
+  background-color: #0971B9;
+}
+
+.container-item-variants {
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  padding-left: 2em;
+}
+
+.nav-link.item {
+  cursor: pointer;
+  width: 230px;
+}
+
+
+.item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  height: 66px;
+  width: 230px;
+}
+
+
+.active {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 230px;
+  height: 66px;
+
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: -4px 5px 8px #00000008;
+  border-left: 1px solid #55ACEC;
+}
+
+.text {
+  margin-left: 1em;
+}
+
+.header-text {
+  padding-left: 2em;
+  letter-spacing: 0px;
+  color: #B2B2B2;
+}
+
+.main-header-text {
+  padding-left: 1.2em;
+  letter-spacing: 0px;
+  color: #14375F;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.arrow-back {
+  width: 20px;
+}
+
+.account-info {
+  width: 241px;
+  display: flex;
+  align-items: center;
+  padding-left: 4em;
+
+  height: 52px;
+  background: #55ACEC;
+  width: 241px;
+}
+
+.container-title-name {
+  padding-left: 1.5em;
+}
+
+.title {
+  font-weight: 100;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.sub-title {
+  color: white;
+}
+
+.campaign-info {
+  width: 1390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 328px;
+  height: 52px;
+  background-color: #0C8FEC;
+  padding-left: 1em;
+}
+
+
+.account-progress {
+  padding-left: 1em;
+}
